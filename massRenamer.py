@@ -5,13 +5,12 @@ import uuid
 import os
 import sys
 
-print "Welcome to Vlado\'s Mass File Rename utility.\n\n" \
-      "This tool will recursively iterate a directory tree \n" \
+print "This tool will recursively scan a directory tree \n" \
       "starting from source root, replicate the directory \n" \
       "structure in target root, and remove mess from file \n" \
       "names in the process. Folder names remain unchanged.\n\n "
 
-print "WARNING: this tool will MOVE your files, not copy them!\n\n"
+print "WARNING: this tool will MOVE the files, not copy them!\n\n"
 
 sourceRoot = raw_input("Enter source root directory: ")
 if not os.path.exists(sourceRoot):

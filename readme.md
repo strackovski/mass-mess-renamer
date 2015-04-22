@@ -1,0 +1,3 @@
+Mass Mess Re-namer
+=========
+Working with some creative people naming their assets in pretty strange ways, I regularly need a tool to just rename the filenames to sane values, given the filenames are irrelevant. This tool will recursively scan a directory tree starting from source root, replicate the directory structure in target root, and remove mess from file names in the process. Folder names remain unchanged. WARNING: this tool will MOVE the files, not copy them.
